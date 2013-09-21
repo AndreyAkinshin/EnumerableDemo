@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableDemo.Good", "EnumerableDemo.Good\EnumerableDemo.Good.csproj", "{D7585181-7563-437B-BE3C-F75632F1B2D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableDemo.Bad", "EnumerableDemo.Bad\EnumerableDemo.Bad.csproj", "{800822FB-2565-4F21-B9CE-CA92572BFACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableDemo.InputGenerator", "EnumerableDemo.InputGenerator\EnumerableDemo.InputGenerator.csproj", "{4DECDA28-AB5B-4E05-8729-E9805E6FE456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DECDA28-AB5B-4E05-8729-E9805E6FE456}.Debug|x86.ActiveCfg = Debug|x86
+		{4DECDA28-AB5B-4E05-8729-E9805E6FE456}.Debug|x86.Build.0 = Debug|x86
+		{4DECDA28-AB5B-4E05-8729-E9805E6FE456}.Release|x86.ActiveCfg = Release|x86
+		{4DECDA28-AB5B-4E05-8729-E9805E6FE456}.Release|x86.Build.0 = Release|x86
+		{800822FB-2565-4F21-B9CE-CA92572BFACA}.Debug|x86.ActiveCfg = Debug|x86
+		{800822FB-2565-4F21-B9CE-CA92572BFACA}.Debug|x86.Build.0 = Debug|x86
+		{800822FB-2565-4F21-B9CE-CA92572BFACA}.Release|x86.ActiveCfg = Release|x86
+		{800822FB-2565-4F21-B9CE-CA92572BFACA}.Release|x86.Build.0 = Release|x86
+		{D7585181-7563-437B-BE3C-F75632F1B2D1}.Debug|x86.ActiveCfg = Debug|x86
+		{D7585181-7563-437B-BE3C-F75632F1B2D1}.Debug|x86.Build.0 = Debug|x86
+		{D7585181-7563-437B-BE3C-F75632F1B2D1}.Release|x86.ActiveCfg = Release|x86
+		{D7585181-7563-437B-BE3C-F75632F1B2D1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = EnumerableDemo.InputGenerator\EnumerableDemo.InputGenerator.csproj
+	EndGlobalSection
+EndGlobal

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Diagnostics;
+using System.Linq;
 
 namespace EnumerableDemo.Good
 {
@@ -34,7 +35,7 @@ namespace EnumerableDemo.Good
 			var watch = new Stopwatch();
 			watch.Start();
 			var stringTransformer = new StringTransformer();
-			var input = ReadInput();
+			var input = ReadInput().Where(str=>str.Length > 5);
 			var transformed = stringTransformer.Transform(input);
 			WriteOutput(transformed);
 			watch.Stop();
